@@ -1,0 +1,7 @@
+cod_cliente,tipo_proceso,ruta,archivo,hora_actualizacion
+TOU,extraccion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,localhost_sqlexpress.prueba.conmgr,08:00
+TOU,extraccion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,Prueba.database,08:00
+TOU,extraccion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,CargaPlano.dtsx,08:00
+MAQ,transformacion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,localhost_sqlexpress.prueba.conmgr,08:00
+MAQ,transformacion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,Prueba.database,08:00
+MAQ,transformacion,C:\Users\RC\OneDrive\Documentos\Prueba\Prueba,CargaPlano.dtsx,08:00
