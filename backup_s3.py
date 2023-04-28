@@ -52,7 +52,7 @@ def backup (connection, path_csv):
     shutil.rmtree(f"{now}")
     
 path_csv = 'prueba_buckup.csv'
-s3 = connection_s3('us-east-1', 'AKIAZXACQZEWB5VG244Z', 'Gh3CozSTHZLa/E/YDwHJ5kY+gYtdokgK5dPSDX1S')
+s3 = connection_s3('us-east-1', AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY_ID)
 
 
 try: 
