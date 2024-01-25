@@ -61,8 +61,8 @@ for index, x in archivos.iterrows():
         archivos_off = archivos_off.append({'cliente': x['cod_cliente'], 
                                             'tipo_proceso': x['tipo_proceso'],'nombre_archivo': x['archivo'], 'ultima_modificacion': fecha_actualizizacion}, ignore_index = True, sort = True)
 
-origin_address = 'juandagomezl12@gmail.com'
-password = 'judagolo970612'
+origin_address = EMAIL
+password = PASSWORD
 destination_address = 'judgomezlo@unal.edu.co' # tambien puede ser una lista con varios correos
 subject = 'Ultima Prueba'
 fecha_actual = datetime.strftime(fecha_actual,'%b %d, %Y')
